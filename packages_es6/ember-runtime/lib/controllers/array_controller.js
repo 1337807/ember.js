@@ -190,7 +190,7 @@ var ArrayController = ArrayProxy.extend(ControllerMixin, SortableMixin, {
     this.set('_subControllers', Ember.A());
   },
 
-  content: computed(function () {
+  model: computed(function () {
     return Ember.A();
   }),
 
